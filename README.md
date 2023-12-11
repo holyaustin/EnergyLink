@@ -1,10 +1,10 @@
-## **Using Chainlink to help sustainable energy projects flourish on-chain and establishing a link between energy communities and crowdlending to finance projects.**
+## **Using Chainlink to help sustainable energy projects in Africa flourish on-chain and establishing a link between energy communities and crowdlending to finance projects.**
 
 ## Inspiration
 
-The inspiration for EnegyLink emerged from the growing need to address climate change at a hyperlocal level and the desire to empower local communities in managing their energy resources.
+The inspiration for EnegyLink emerged from the growing need to address climate change at a hyperlocal level especially in Africa and the desire to empower local communities in managing their energy resources.
 
-
+![Banner](frontend/src/assets/images/energylink2.png)
 
 **The Problem**
 Sustainable energy growth faces hurdles:
@@ -61,7 +61,7 @@ We excited about finishing our dApp for the hackathon and building a well-coordi
 
 ## What we learned
 
-WWe learned that when re-thinking existing energy communities with a blockchain based governance it fundamentally changes the game and creates new opportunities and a better alignment with the best pricing for solar users. The Chainlink Functions feature opened up possibilities to integrate off-chain data that makes the market algorithm execution smooth and efficient. The whole process makes it easier to make decisions as an energy community and as stakeholders in the community.
+We learned that when re-thinking existing energy communities with a blockchain based governance it fundamentally changes the game and creates new opportunities and a better alignment with the best pricing for solar users. The Chainlink Functions feature opened up possibilities to integrate off-chain data that makes the market algorithm execution smooth and efficient. The whole process makes it easier to make decisions as an energy community and as stakeholders in the community.
 
 ## What's next for EnegyLink
 

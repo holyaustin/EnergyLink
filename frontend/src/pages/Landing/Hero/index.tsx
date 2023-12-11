@@ -39,10 +39,7 @@ export function Hero() {
               >
                 Create Community
               </Button>
-              <Button
-                href="https://www.youtube.com/channel/UC07yY6vK-9QYrjHwqnw0ZGg"
-                variant="outline"
-              >
+              <Button href="https://youtu.be/VuPSPGZYW7s" variant="outline">
                 <GithubIcon className="h-6 w-6 flex-none" />
                 <span className="ml-2.5">Learn More</span>
               </Button>
