@@ -19,7 +19,8 @@ const MAINNET_RPC_URL =
     "https://eth-mainnet.alchemyapi.io/v2/your-api-key"
 const POLYGON_MAINNET_RPC_URL =
     process.env.POLYGON_MAINNET_RPC_URL || "https://polygon-mainnet.alchemyapi.io/v2/your-api-key"
-const SEPOLIA_RPC_URL = process.env.SEPOLIA_RPC_URL
+const AVAX_RPC_URL = process.env.AVAX_RPC_URL
+const ZKEVM_RPC_URL = process.env.ZKEVM_RPC_URL
 const MUMBAI_RPC_URL = process.env.MUMBAI_RPC_URL || ""
 
 /* Wallet KEYs */
@@ -28,6 +29,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY
 /* API KEYs */
 const ETHERSCAN_API_KEY = process.env.ETHERSCAN_API_KEY || "Your etherscan API key"
 const POLYGONSCAN_API_KEY = process.env.POLYGONSCAN_API_KEY || "Your polygonscan API key"
+const ZKEVM_POLYSCAN_API_KEY = process.env.ZKEVM_POLYSCAN_API_KEY || "Your zkevm API key"
 
 /* Others */
 
@@ -48,11 +50,11 @@ const config: HardhatUserConfig = {
             chainId: 31337,
             allowUnlimitedContractSize: true,
         },
-        sepolia: {
-            url: SEPOLIA_RPC_URL !== undefined ? SEPOLIA_RPC_URL : "",
+        avax: {
+            url: AVAX_RPC_URL !== undefined ? AVAX_RPC_URL : "",
             accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
             saveDeployments: true,
-            chainId: 11155111,
+            chainId: 43113,
             allowUnlimitedContractSize: true,
         },
         mainnet: {
@@ -68,16 +70,16 @@ const config: HardhatUserConfig = {
             chainId: 80001,
             allowUnlimitedContractSize: true,
         },
-        polygon: {
-            url: POLYGON_MAINNET_RPC_URL,
+        zkevm: {
+            url: ZKEVM_RPC_URL,
             accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
             saveDeployments: true,
-            chainId: 137,
+            chainId: 1442,
         },
     },
     etherscan: {
         apiKey: {
-            sepolia: ETHERSCAN_API_KEY,
+            zkevm: ZKEVM_POLYSCAN_API_KEY,
             mainnet: ETHERSCAN_API_KEY,
             polygon: POLYGONSCAN_API_KEY,
         },
