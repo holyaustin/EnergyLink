@@ -12,7 +12,7 @@ const deployMocks: DeployFunction = async function (hre: HardhatRuntimeEnvironme
         await deploy("ERC20Mock", {
             from: deployer,
             log: true,
-            args: ["ECOMock", "ECO"],
+            args: ["ECOMock", "ELT"],
         })
 
         log("Mocks Deployed!")
