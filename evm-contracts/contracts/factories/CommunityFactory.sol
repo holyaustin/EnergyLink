@@ -6,7 +6,7 @@ import "./CommunityItemsFactory.sol";
 import "../Community.sol";
 
 /** @title Energy Community Factory Contract
- *  @author EcoVerse Team
+ *  @author EnergyLink Team
  *  @notice This factory contract allows creating and tracking the Community contract
  */
 contract CommunityFactory {

@@ -11,7 +11,7 @@ import "../governance/TimeLock.sol";
 import "../Community.sol";
 
 /** @title Energy Community TimeLock Factory Contract
- *  @author EcoVerse
+ *  @author EnergyLink
  *  @notice This factory contract allows creating and tracking TimeLock contracts
  */
 contract TimeLockFactory {

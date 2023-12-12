@@ -2,7 +2,7 @@
 pragma solidity ^0.8.9;
 
 /** @title Energy Community TimeLock Factory Interface
- *  @author EcoVerse
+ *  @author EnergyLink
  */
 interface ITimeLockFactory {
     /** @notice Event emitted when a new TimeLock contract is created */

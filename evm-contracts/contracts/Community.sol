@@ -15,7 +15,7 @@ import "./interfaces/ICommunityItems.sol";
 error Community__MemberIsInCommunity();
 
 /** @title Energy Community Contract
- *  @author EcoVerse
+ *  @author EnergyLink
  *  @notice This contract is for creating a decentalized energy community
  */
 contract Community is Ownable {
