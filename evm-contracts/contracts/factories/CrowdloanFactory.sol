@@ -9,7 +9,7 @@ import "../interfaces/ICrowdloan.sol";
 import "../Crowdloan.sol";
 
 /** @title Crowdloan Factory Contract
- *  @author EnergyLink Team
+ *  @author EcoVerse Team
  *  @notice This factory contract allows creating and tracking crowdlending campaigns for energy communities
  */
 contract CrowdloanFactory is Ownable {

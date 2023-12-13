@@ -7,7 +7,7 @@ import "hardhat/console.sol";
 import "../CommunityItems.sol";
 
 /** @title Energy Community Items Factory Contract
- *  @author EnergyLink Team
+ *  @author EcoVerse Team
  *  @notice This factory contract allows creating and tracking community items contract
  */
 contract CommunityItemsFactory {

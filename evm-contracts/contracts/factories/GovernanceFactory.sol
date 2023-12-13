@@ -10,7 +10,7 @@ import "../governance/TimeLock.sol";
 import "../interfaces/ICommunity.sol";
 
 /** @title Energy Community Governance Factory Contract
- *  @author EnergyLink Team
+ *  @author EcoVerse Team
  *  @notice This factory contract allows creating and tracking community governance contracts
  */
 contract GovernanceFactory {

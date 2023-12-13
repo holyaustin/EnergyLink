@@ -73,21 +73,18 @@ With the right funding we aim to:
 
 **3. Expand Platform Features and Capabilities:** Our third goal is to continue to develop and refine our platform based on the needs of our growing user base. This could include introducing additional financial instruments, creating more sophisticated governance mechanisms, or developing advanced AI capabilities to optimize energy trading. By continuously enhancing our platform, we will ensure that it remains at the cutting edge of the energy sector and that it continues to provide the best possible value to our users. We will also explore partnerships with other organizations to expand our reach and improve our platform's effectiveness.
 
-## Deployed Contracts on Avax Fuji C Chain
-
+## Deployed on Avax C Chain
 deploying "CrowdloanFactory" (tx: 0x1f0d6b06021335b350351fff052828b393c72d1dc8af377b3bfce942d90ecbad)...: deployed at 0x42Fc1d53EcF8B4c46989da0d44f07490668338c8 with 1711295 gas
-----------------------------------------------------
+
 deploying "CommunityItemsFactory" (tx: 0xe727f87f1833bea8ef89c4a434a350f6da8249b584dd18e015d6bb97eb45edc0)...: deployed at 0xEbb3113e97eeaA16Dcc2FebD6a1617AB731066AE with 3058926 gas
-----------------------------------------------------
+
 deploying "TimeLockFactory" (tx: 0x02fd893a61e621ccc643412555b4e0fa258d3d6cb1213a4cdb967bac8c815008)...: deployed at 0x5E4e5347eB417982375Ef9BDe0B77F4322FCF79F with 2077603 gas
-----------------------------------------------------
+
 deploying "GovernanceFactory" (tx: 0xb3d270abab87b699fbde751fa9b6a3f23a88ccc38b74e760419f05cffbf76a28)...: deployed at 0x1B7a6536f23a16e198246A3f80Cd646f86856F11 with 5081541 gas
-----------------------------------------------------
+
 deploying "CommunityFactory" (tx: 0x25ede639744c2630b8462195bc129a63b33646ead29e635c6c47460849f56195)...: deployed at 0x60cF847C6Ea49009ae290F749451F4CB66CAD0B2 with 1358395 gas
-----------------------------------------------------
 
-## Deployed Contracts on Polygon zkEVM Testnet
-
+## Deployed on zkEVM
 deploying "CrowdloanFactory" (tx: 0xb30e987b83b1688a22d6f5be80195152c4c13c15092d753eb54374d5b00a6504)...: deployed at 0xb61710B6C92ED3317A95368378a8300a23A74BFC with 1711295 gas
 ----------------------------------------------------
 deploying "CommunityItemsFactory" (tx: 0xfaa0cf411dcb3d6070c84ff2b08d0d0ccf69e247865cff9ef630fe367c0f7c88)...: deployed at 0xc84d5fbc20AFDa326524Fb50e8Fe4E065701DbF4 with 3058926 gas

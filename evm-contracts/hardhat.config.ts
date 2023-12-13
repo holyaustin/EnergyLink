@@ -104,13 +104,6 @@ const config: HardhatUserConfig = {
         compilers: [
             {
                 version: "0.8.9",
-                settings: {
-                    optimizer: {
-                        enabled: true,
-                        runs: 1,
-                    },
-                },
-
             },
             {
                 version: "0.7.0",
@@ -122,16 +115,14 @@ const config: HardhatUserConfig = {
         settings: {
             optimizer: {
                 enabled: true,
-                runs: 1,
-            },
+                runs: 200,
+                details: { yul: false },
+              },
         },
     },
     contractSizer: {
-        //runOnCompile: false,
+        runOnCompile: false,
         only: ["FunctionsConsumer", "AutomatedFunctionsConsumer", "FunctionsBillingRegistry"],
-        alphaSort: true,
-        runOnCompile: true,
-        disambiguatePaths: false,
     },
     mocha: {
         timeout: 200000, // 200 seconds max for running tests

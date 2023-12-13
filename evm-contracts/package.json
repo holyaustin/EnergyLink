@@ -1,5 +1,5 @@
 {
-    "name": "EnergyLink EVM Smart Contracts",
+    "name": "Ecoverse EVM Smart Contracts",
     "license": "MIT",
     "version": "0.1.0",
     "scripts": {
@@ -35,7 +35,7 @@
         "eth-crypto": "^2.4.0",
         "hardhat": "^2.14.0",
         "hardhat-contract-sizer": "^2.9.0",
-        "hardhat-deploy": "^0.11.30",
+        "hardhat-deploy": "^0.11.26",
         "hardhat-gas-reporter": "^1.0.9",
         "prettier": "^2.8.8",
         "prettier-plugin-solidity": "^1.1.3",

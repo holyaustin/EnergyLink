@@ -1,19 +1,23 @@
 export enum Networks {
   Hardhat = "Hardhat",
   Sepolia = "Ethereum (Sepolia)",
-  Goerli = "Ethereum (Goerli)",
   Polygon = "Polygon (Mumbai)",
-  Optimism = "Optimism (Goerli)",
+  zkEVM = "zkEVM (testnet)",
+  Avalanche = "Avalanche (fuji C Chain)",
 }
 
 export enum SupportedChainId {
   SEPOLIA = 11155111,
   HARDHAT = 31337,
+  ZKEVM = 1442,
+  AVALANCHE = 43113,
 }
 
 export const CHAIN_IDS_TO_NETWORKS = {
   [SupportedChainId.SEPOLIA]: Networks.Sepolia,
   [SupportedChainId.HARDHAT]: Networks.Hardhat,
+  [SupportedChainId.ZKEVM]: Networks.zkEVM,
+  [SupportedChainId.AVALANCHE]: Networks.Avalanche,
 };
 
 export const ALL_SUPPORTED_CHAIN_IDS: SupportedChainId[] = Object.values(

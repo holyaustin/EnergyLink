@@ -2996,7 +2996,7 @@
     "uuid" "2.0.1"
     "xmlhttprequest" "1.8.0"
 
-"ethers@^5.7.0", "ethers@^5.7.1", "ethers@5.7.2":
+"ethers@^5.5.3", "ethers@^5.7.1", "ethers@5.7.2":
   "integrity" "sha512-wswUsmWo1aOK8rR7DIKiWSw9DbLWe6x98Jrn8wcTflTVvaXhAMaB5zGAXy0GYQEQp9iO1iSHWVyARQm11zUtyg=="
   "resolved" "https://registry.npmjs.org/ethers/-/ethers-5.7.2.tgz"
   "version" "5.7.2"
@@ -3543,10 +3543,10 @@
     "cli-table3" "^0.6.0"
     "strip-ansi" "^6.0.0"
 
-"hardhat-deploy@^0.11.30":
-  "integrity" "sha512-kAkCvTYPpdIvnWCc3F0xg3AbVsa/SgH9aePPO7e7nHUOkg07LGKuknU/UaVAfWwHe7Zs57pQIAolAQyKI+mnXw=="
-  "resolved" "https://registry.npmjs.org/hardhat-deploy/-/hardhat-deploy-0.11.44.tgz"
-  "version" "0.11.44"
+"hardhat-deploy@^0.11.26":
+  "integrity" "sha512-GvnkD8v6q0coCQbwZNeUcO3ab1zz36FKsqzNdm6EcnVoAfXVkFpdA0pgJ7/Rk3+Lv5709xOtbneFOyoukUOhWQ=="
+  "resolved" "https://registry.npmjs.org/hardhat-deploy/-/hardhat-deploy-0.11.26.tgz"
+  "version" "0.11.26"
   dependencies:
     "@ethersproject/abi" "^5.7.0"
     "@ethersproject/abstract-signer" "^5.7.0"
@@ -3565,7 +3565,7 @@
     "chokidar" "^3.5.2"
     "debug" "^4.3.2"
     "enquirer" "^2.3.6"
-    "ethers" "^5.7.0"
+    "ethers" "^5.5.3"
     "form-data" "^4.0.0"
     "fs-extra" "^10.0.0"
     "match-all" "^1.2.6"

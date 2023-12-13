@@ -2,7 +2,7 @@
 pragma solidity ^0.8.9;
 
 /** @title Energy Community Interface
- *  @author EnergyLink
+ *  @author EcoVerse
  *  @notice This interface is for interacting with the Community contract
  */
 interface ICommunity {

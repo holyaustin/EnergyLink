@@ -8,7 +8,7 @@ const Logo: React.FC<LogoProps> = (props) => {
   return (
     <svg aria-hidden="true" viewBox="0 0 109 40" {...props}>
       <text x="40" y="15" fill="green">
-        EnergyLink
+        EcoVerse
       </text>
       <path
         d="M55.528 27.57V15.842H52V13.97h9.108v1.872h-3.636V26.57h-1.944Z"
