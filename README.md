@@ -1,8 +1,8 @@
-## **Using Chainlink to help sustainable energy projects in Africa flourish on-chain and establishing a link between energy communities and crowdlending to finance projects.**
+## **Using Areon to help sustainable energy projects in Africa flourish on-chain and establishing a link between energy communities and crowdlending to finance projects with a DAO.**
 
 ## Inspiration
 
-The inspiration for EnegyLink emerged from the growing need to address climate change at a hyperlocal level especially in Africa and the desire to empower local communities in managing their energy resources.
+The inspiration for EnegyLink emerged from the growing need to address climate change at a hyperlocal level especially in Africa and the desire to empower local communities in managing their energy resources with DAO.
 
 ![Banner](frontend/src/assets/images/energylink2.png)
 
