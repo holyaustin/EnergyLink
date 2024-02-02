@@ -62,7 +62,7 @@ const config: HardhatUserConfig = {
             accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
             saveDeployments: true,
             chainId: 462,
-            allowUnlimitedContractSize: true,
+            //allowUnlimitedContractSize: true,
         },
         mumbai: {
             url: MUMBAI_RPC_URL,
@@ -105,6 +105,13 @@ const config: HardhatUserConfig = {
         compilers: [
             {
                 version: "0.8.9",
+                settings: {
+                    optimizer: {
+                        enabled: true,
+                        runs: 1,
+                        //details: { yul: false },
+                      },
+                },
             },
             {
                 version: "0.7.0",
@@ -116,8 +123,8 @@ const config: HardhatUserConfig = {
         settings: {
             optimizer: {
                 enabled: true,
-                runs: 200,
-                details: { yul: false },
+                runs: 1,
+                //details: { yul: false },
               },
         },
     },
