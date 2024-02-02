@@ -22,7 +22,7 @@ const POLYGON_MAINNET_RPC_URL =
 const AVAX_RPC_URL = process.env.AVAX_RPC_URL
 const ZKEVM_RPC_URL = process.env.ZKEVM_RPC_URL
 const MUMBAI_RPC_URL = process.env.MUMBAI_RPC_URL || ""
-
+const AREON_RPC_URL = process.env.AREON_RPC_URL
 /* Wallet KEYs */
 const PRIVATE_KEY = process.env.PRIVATE_KEY
 
@@ -57,11 +57,12 @@ const config: HardhatUserConfig = {
             chainId: 43113,
             allowUnlimitedContractSize: true,
         },
-        mainnet: {
-            url: MAINNET_RPC_URL,
+        areon: {
+            url: AREON_RPC_URL,
             accounts: PRIVATE_KEY !== undefined ? [PRIVATE_KEY] : [],
             saveDeployments: true,
-            chainId: 1,
+            chainId: 462,
+            allowUnlimitedContractSize: true,
         },
         mumbai: {
             url: MUMBAI_RPC_URL,

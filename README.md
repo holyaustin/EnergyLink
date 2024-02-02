@@ -88,16 +88,14 @@ deploying "CommunityFactory" (tx: 0x25ede639744c2630b8462195bc129a63b33646ead29e
 ## Deployed on zkEVM
 
 deploying "CrowdloanFactory" (tx: 0xb30e987b83b1688a22d6f5be80195152c4c13c15092d753eb54374d5b00a6504)...: deployed at 0xb61710B6C92ED3317A95368378a8300a23A74BFC with 1711295 gas
-----------------------------------------------------
 
 deploying "CommunityItemsFactory" (tx: 0xfaa0cf411dcb3d6070c84ff2b08d0d0ccf69e247865cff9ef630fe367c0f7c88)...: deployed at 0xc84d5fbc20AFDa326524Fb50e8Fe4E065701DbF4 with 3058926 gas
-----------------------------------------------------
 
 deploying "TimeLockFactory" (tx: 0xaf670c79b3f47c53e918c5a0e273a2d4b690bd8abc333585abcb402b26fa86dc)...: deployed at 0xD8542343ceC6FbDdb62CaEBC613C320fB0A62303 with 2077603 gas
-----------------------------------------------------
 
 deploying "GovernanceFactory" (tx: 0x0c9443a12c2a5653762c02c1074a2282f19151b2b90afb1d9d45884857d42271)...: deployed at 0xe04725eD16105aB00cbdAC3dD28F5ccB774d29e5 with 5081541 gas
-----------------------------------------------------
 
 deploying "CommunityFactory" (tx: 0xaf53c201d11fc5a9ff52e6742780746b04f2cb26c31e9186505d2f74cffdcf07)...: deployed at 0xf25B0cBCA90Ac97e3037488Bb64F0E0D9D706597 with 1358395 gas
-----------------------------------------------------
+
+## Deployed on Avax C Chain
+reusing "CrowdloanFactory" at 0xe078fe7A93017F8e18c1C52E79632d0B94c56c26
