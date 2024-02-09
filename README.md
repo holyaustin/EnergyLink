@@ -98,6 +98,9 @@ deploying "GovernanceFactory" (tx: 0x0c9443a12c2a5653762c02c1074a2282f19151b2b90
 deploying "CommunityFactory" (tx: 0xaf53c201d11fc5a9ff52e6742780746b04f2cb26c31e9186505d2f74cffdcf07)...: deployed at 0xf25B0cBCA90Ac97e3037488Bb64F0E0D9D706597 with 1358395 gas
 
 ## Deployed on Areon testnet Chain
+
+ELT erc20 token 0x0b53d410113d7f9708a5da4f80509af9f5d3087e
+
 deploying "CrowdloanFactory" (tx: 0x6ee19b1b4c397b9414e75ae71432b6d5e0484334a93b7502d81a57ab2284420c)...: deployed at 0x8D36089AB6eFdB3FEb2D8Ed42F7eC80f3c6d2b11 with 1711295 gas
 
 deploying "CommunityItemsFactory" (tx: 0xb0340cb43c4f753261a14f15dfc1d9990b1a1a9262271d71a1abb4b70155fcdd)...: deployed at 0x42Fc1d53EcF8B4c46989da0d44f07490668338c8 with 3058926 gas
@@ -107,3 +110,5 @@ deploying "TimeLockFactory" (tx: 0xb66350f7f8d39cdf623760894e42c4af6c6f413a120f5
 deploying "GovernanceFactory" (tx: 0xb6649d8cfe315aa82686ab6c17ca8b8c8241e3aa84bb054296295be7ac69c775)...: deployed at 0x5E4e5347eB417982375Ef9BDe0B77F4322FCF79F with 5081541 gas
 
 deploying "CommunityFactory" (tx: 0x15ec8f46486d1266c183fc735d11045bf93f0ed29f2b689afe0c8df4e03cfda7)...: deployed at 0x1B7a6536f23a16e198246A3f80Cd646f86856F11 with 1358395 gas
+
+  [SupportedChainId.AREON]: Networks.Areon,

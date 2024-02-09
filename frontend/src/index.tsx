@@ -6,7 +6,7 @@ import App from "./App/App";
 import "./App/Styles/App.css";
 import "./index.css";
 
-axios.defaults.baseURL = process.env.AVAX_RPC_URL;
+axios.defaults.baseURL = process.env.AREON_RPC_URL;
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement

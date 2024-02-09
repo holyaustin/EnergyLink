@@ -1,7 +1,7 @@
 import { contractAddresses } from "./addresses";
 
 export const assets = [
-  { value: "ECO", label: "ECO Mock" },
+  { value: "ELT", label: "ELT Mock" },
   { value: "DAI", label: "DAI Mock" },
   { value: "WETH", label: "WETH Mock" },
   { value: "USDC", label: "USDC Mock" },

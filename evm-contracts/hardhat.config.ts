@@ -20,9 +20,9 @@ const MAINNET_RPC_URL =
 const POLYGON_MAINNET_RPC_URL =
     process.env.POLYGON_MAINNET_RPC_URL || "https://polygon-mainnet.alchemyapi.io/v2/your-api-key"
 const AVAX_RPC_URL = process.env.AVAX_RPC_URL
-const ZKEVM_RPC_URL = process.env.ZKEVM_RPC_URL
+const ZKEVM_RPC_URL = 'https://rpc.public.zkevm-test.net'
 const MUMBAI_RPC_URL = process.env.MUMBAI_RPC_URL || ""
-const AREON_RPC_URL = process.env.AREON_RPC_URL
+const AREON_RPC_URL = "https://testnet-rpc.areon.network"
 /* Wallet KEYs */
 const PRIVATE_KEY = process.env.PRIVATE_KEY
 

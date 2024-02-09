@@ -3,6 +3,7 @@ export enum Networks {
   Sepolia = "Ethereum (Sepolia)",
   Polygon = "Polygon (Mumbai)",
   zkEVM = "zkEVM (testnet)",
+  Areon = "Areon Testnet",
   Avalanche = "Avalanche (fuji C Chain)",
 }
 
@@ -10,11 +11,13 @@ export enum SupportedChainId {
   SEPOLIA = 11155111,
   HARDHAT = 31337,
   ZKEVM = 1442,
+  AREON = 462,
   AVALANCHE = 43113,
 }
 
 export const CHAIN_IDS_TO_NETWORKS = {
   [SupportedChainId.SEPOLIA]: Networks.Sepolia,
+  [SupportedChainId.AREON]: Networks.Areon,
   [SupportedChainId.HARDHAT]: Networks.Hardhat,
   [SupportedChainId.ZKEVM]: Networks.zkEVM,
   [SupportedChainId.AVALANCHE]: Networks.Avalanche,

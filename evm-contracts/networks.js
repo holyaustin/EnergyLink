@@ -3,7 +3,6 @@
 // LINK token addresses: https://docs.chain.link/resources/link-token-contracts/
 // Price feeds addresses: https://docs.chain.link/data-feeds/price-feeds/addresses
 // Chain IDs: https://chainlist.org/?testnets=true
-
 require("@chainlink/env-enc").config()
 
 const DEFAULT_VERIFICATION_BLOCK_CONFIRMATIONS = 2
@@ -14,7 +13,7 @@ const npmCommand = process.env.npm_lifecycle_event
 const isTestEnvironment = npmCommand == "test" || npmCommand == "test:unit"
 
 // Set EVM private key (required)
-const PRIVATE_KEY = process.env.PRIVATE_KEY
+const PRIVATE_KEY = '1a117347dc07dcb00e01fceeb9b5b849d9784d5264cdb705727edfa76e60e9a1'
 if (!isTestEnvironment && !PRIVATE_KEY) {
   throw Error("Set the PRIVATE_KEY environment variable with your EVM wallet private key")
 }

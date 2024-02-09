@@ -7,12 +7,12 @@ const deployMocks: DeployFunction = async function (hre: HardhatRuntimeEnvironme
     const { deployer } = await getNamedAccounts()
     const chainId = network.config.chainId
 
-    if (chainId == 31337) {
+    if (chainId == 462) {
         log("Local network detected! Deploying mocks...")
         await deploy("ERC20Mock", {
             from: deployer,
             log: true,
-            args: ["ECOMock", "ELT"],
+            args: ["EnergyToken", "ELT"],
         })
 
         log("Mocks Deployed!")
